@@ -1,15 +1,72 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 48" width="100%">
-  <g>
-    <!-- Flies the jet from off-screen left to off-screen right -->
-    <animateTransform attributeName="transform" type="translate" from="-70 1" to="810 1" dur="6s" repeatCount="indefinite" />
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 72" width="100%">
+  <defs>
+    <!-- Reusable multi-layered flare + silver chaff bundle -->
+    <g id="flare">
+      <!-- Outer fiery orange halo (keeps it visible on GitHub Light Mode too) -->
+      <circle cx="0" cy="0" r="3.4" fill="#ff6a00" opacity="0.55" />
+      <!-- Bright gold core & white-hot center -->
+      <circle cx="0" cy="0" r="2.0" fill="#ffbe0b" />
+      <circle cx="0" cy="0" r="0.9" fill="#ffffff" />
+      <!-- Trailing chaff glints & spark -->
+      <rect x="-4" y="-2" width="1.5" height="1.5" fill="#8b949e" opacity="0.8" />
+      <rect x="-7" y="-1" width="1.2" height="1.2" fill="#ff9e00" opacity="0.6" />
+    </g>
+  </defs>
 
-    <!-- Scales your original 640x480 jet down to fit the 48px banner height -->
+  <g>
+    <!-- Main jet flight path across the banner -->
+    <animateTransform attributeName="transform" type="translate" from="-70 2" to="810 2" dur="6s" repeatCount="indefinite" />
+
+    <!-- SALVO 1: 4 staggered flares popping out early-mid flight -->
+    <g opacity="0">
+      <use href="#flare" />
+      <animateTransform attributeName="transform" type="translate" values="24 23; 24 23; 24 23; -22 44; -90 62; -90 62; 24 23" keyTimes="0; 0.219; 0.22; 0.28; 0.39; 0.40; 1" dur="6s" repeatCount="indefinite" />
+      <animate attributeName="opacity" values="0; 0; 1; 0.9; 0; 0; 0" keyTimes="0; 0.219; 0.22; 0.28; 0.39; 0.40; 1" dur="6s" repeatCount="indefinite" />
+    </g>
+
+    <g opacity="0">
+      <use href="#flare" />
+      <animateTransform attributeName="transform" type="translate" values="24 23; 24 23; 24 23; -18 47; -85 65; -85 65; 24 23" keyTimes="0; 0.239; 0.24; 0.30; 0.41; 0.42; 1" dur="6s" repeatCount="indefinite" />
+      <animate attributeName="opacity" values="0; 0; 1; 0.9; 0; 0; 0" keyTimes="0; 0.239; 0.24; 0.30; 0.41; 0.42; 1" dur="6s" repeatCount="indefinite" />
+    </g>
+
+    <g opacity="0">
+      <use href="#flare" />
+      <animateTransform attributeName="transform" type="translate" values="24 23; 24 23; 24 23; -24 42; -92 60; -92 60; 24 23" keyTimes="0; 0.259; 0.26; 0.32; 0.43; 0.44; 1" dur="6s" repeatCount="indefinite" />
+      <animate attributeName="opacity" values="0; 0; 1; 0.9; 0; 0; 0" keyTimes="0; 0.259; 0.26; 0.32; 0.43; 0.44; 1" dur="6s" repeatCount="indefinite" />
+    </g>
+
+    <g opacity="0">
+      <use href="#flare" />
+      <animateTransform attributeName="transform" type="translate" values="24 23; 24 23; 24 23; -20 46; -88 64; -88 64; 24 23" keyTimes="0; 0.279; 0.28; 0.34; 0.45; 0.46; 1" dur="6s" repeatCount="indefinite" />
+      <animate attributeName="opacity" values="0; 0; 1; 0.9; 0; 0; 0" keyTimes="0; 0.279; 0.28; 0.34; 0.45; 0.46; 1" dur="6s" repeatCount="indefinite" />
+    </g>
+
+    <!-- SALVO 2: 3 quick flares popping on the back half of the pass -->
+    <g opacity="0">
+      <use href="#flare" />
+      <animateTransform attributeName="transform" type="translate" values="24 23; 24 23; 24 23; -22 44; -90 62; -90 62; 24 23" keyTimes="0; 0.579; 0.58; 0.64; 0.75; 0.76; 1" dur="6s" repeatCount="indefinite" />
+      <animate attributeName="opacity" values="0; 0; 1; 0.9; 0; 0; 0" keyTimes="0; 0.579; 0.58; 0.64; 0.75; 0.76; 1" dur="6s" repeatCount="indefinite" />
+    </g>
+
+    <g opacity="0">
+      <use href="#flare" />
+      <animateTransform attributeName="transform" type="translate" values="24 23; 24 23; 24 23; -18 47; -85 65; -85 65; 24 23" keyTimes="0; 0.599; 0.60; 0.66; 0.77; 0.78; 1" dur="6s" repeatCount="indefinite" />
+      <animate attributeName="opacity" values="0; 0; 1; 0.9; 0; 0; 0" keyTimes="0; 0.599; 0.60; 0.66; 0.77; 0.78; 1" dur="6s" repeatCount="indefinite" />
+    </g>
+
+    <g opacity="0">
+      <use href="#flare" />
+      <animateTransform attributeName="transform" type="translate" values="24 23; 24 23; 24 23; -24 43; -91 61; -91 61; 24 23" keyTimes="0; 0.619; 0.62; 0.68; 0.79; 0.80; 1" dur="6s" repeatCount="indefinite" />
+      <animate attributeName="opacity" values="0; 0; 1; 0.9; 0; 0; 0" keyTimes="0; 0.619; 0.62; 0.68; 0.79; 0.80; 1" dur="6s" repeatCount="indefinite" />
+    </g>
+
+    <!-- Jet (rendered after the flares so they eject from underneath) -->
     <g transform="scale(0.09)" fill="#78517d" stroke="#78517d" stroke-width="0.0064">
-      <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round" stroke="#353535" stroke-width="21.76">
+      <g stroke-linecap="round" stroke-linejoin="round" stroke="#353535" stroke-width="21.76">
         <path d="M544 224l-128-16-48-16h-24L227.158 44h39.509C278.333 44 288 41.375 288 38s-9.667-6-21.333-6H152v12h16v164h-48l-66.667-80H18.667L8 138.667V208h8v16h48v2.666l-64 8v42.667l64 8V288H16v16H8v69.333L18.667 384h34.667L120 304h48v164h-16v12h114.667c11.667 0 21.333-2.625 21.333-6s-9.667-6-21.333-6h-39.509L344 320h24l48-16 128-16c96-21.333 96-26.583 96-32 0-5.417 0-10.667-96-32z" />
       </g>
-
-      <g id="SVGRepo_iconCarrier">
+      <g>
         <path d="M544 224l-128-16-48-16h-24L227.158 44h39.509C278.333 44 288 41.375 288 38s-9.667-6-21.333-6H152v12h16v164h-48l-66.667-80H18.667L8 138.667V208h8v16h48v2.666l-64 8v42.667l64 8V288H16v16H8v69.333L18.667 384h34.667L120 304h48v164h-16v12h114.667c11.667 0 21.333-2.625 21.333-6s-9.667-6-21.333-6h-39.509L344 320h24l48-16 128-16c96-21.333 96-26.583 96-32 0-5.417 0-10.667-96-32z" />
       </g>
     </g>
