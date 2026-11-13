@@ -51,10 +51,10 @@ Computer Science graduate bringing a background in high-stakes operations into s
     <img src="https://forthebadge.com/api/badges/generate?panels=2&primaryLabel=LPI&secondaryLabel=Linux+Essentials&primaryBGColor=%23646464&primaryTextColor=%23ffffff&secondaryBGColor=%23e6bb39&secondaryTextColor=%23FFFFFF&primaryFontSize=11&primaryFontWeight=600&primaryLetterSpacing=2&primaryFontFamily=Roboto&primaryTextTransform=uppercase&secondaryFontSize=12&secondaryFontWeight=900&secondaryLetterSpacing=2&secondaryFontFamily=Montserrat&secondaryTextTransform=uppercase&primaryIcon=linuxprofessionalinstitute&primaryIconColor=%23e6bb39&primaryIconSize=16&primaryIconPosition=left&scale=0.8" alt="Linux Essentials | Linux Professional Institute" />
   </a>
       <a href="https://www.peoplecert.org">
-    <img src="https://img.shields.io/badge/Certification-Linux_Essentials-8957e5?style=for-the-badge" alt="Linux Essentials | Linux Professional Institute" />
+    <img src="https://forthebadge.com/api/badges/generate?panels=2&primaryLabel=IBM&secondaryLabel=AI+Fundamentals&primaryBGColor=%23646464&primaryTextColor=%23ffffff&secondaryBGColor=%235e8be1&secondaryTextColor=%23FFFFFF&primaryFontSize=11&primaryFontWeight=600&primaryLetterSpacing=2&primaryFontFamily=Roboto&primaryTextTransform=uppercase&secondaryFontSize=12&secondaryFontWeight=900&secondaryLetterSpacing=2&secondaryFontFamily=Montserrat&secondaryTextTransform=uppercase&scale=0.8" alt="IBM Skills Build AI Fundamentals" />
   </a>
   <a href="https://www.peoplecert.org">
-    <img src="https://img.shields.io/badge/Certification-ITIL_4-8957e5?style=for-the-badge" alt="Certification 2" />
+    <img src="https://forthebadge.com/api/badges/generate?panels=2&primaryLabel=PeopleCert&secondaryLabel=ITIL+4&primaryBGColor=%23646464&primaryTextColor=%23ffffff&secondaryBGColor=%23a929f5&secondaryTextColor=%23FFFFFF&primaryFontSize=11&primaryFontWeight=600&primaryLetterSpacing=2&primaryFontFamily=Roboto&primaryTextTransform=uppercase&secondaryFontSize=12&secondaryFontWeight=900&secondaryLetterSpacing=2&secondaryFontFamily=Montserrat&secondaryTextTransform=uppercase&scale=0.8" alt="ITIL 4" />
   </a>
 </p>
 
