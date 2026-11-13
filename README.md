@@ -45,7 +45,7 @@ Computer Science graduate bringing a background in high-stakes operations into s
 #### Certifications
 <p>
   <a href="https://www.credly.com/users/kyle-lund.0d7117c2">
-    <img src="https://img.shields.io/badge/Google-UX_Design_Professional-2f81f7?style=for-the-badge&logo=google&logoColor=white" alt="Google UX Design Professional" />
+    <img src="https://img.shields.io/badge/Google-UX_Design_Professional-2f81f7?style=for-the-badge&logo=google&logoColor=#287A50" alt="Google UX Design Professional" />
   </a>
     <a href="https://www.peoplecert.org">
     <img src="https://forthebadge.com/api/badges/generate?panels=2&primaryLabel=LPI&secondaryLabel=Linux+Essentials&primaryBGColor=%23646464&primaryTextColor=%23ffffff&secondaryBGColor=%23e6bb39&secondaryTextColor=%23FFFFFF&primaryFontSize=11&primaryFontWeight=600&primaryLetterSpacing=2&primaryFontFamily=Roboto&primaryTextTransform=uppercase&secondaryFontSize=12&secondaryFontWeight=900&secondaryLetterSpacing=2&secondaryFontFamily=Montserrat&secondaryTextTransform=uppercase&primaryIcon=linuxprofessionalinstitute&primaryIconColor=%23e6bb39&primaryIconSize=16&primaryIconPosition=left&scale=0.8" alt="Linux Essentials | Linux Professional Institute" />
