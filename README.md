@@ -7,7 +7,7 @@
 
 Computer Science graduate bringing a background in high-stakes operations into software engineering. Pairing military-tested discipline and systems thinking with modern development practices to build **scalable, user-focused software**.
 
-📫 [LinkedIn](https://linkedin.com/in/yourhandle)
+📫 [LinkedIn](https://www.linkedin.com/in/kyle-l-325775392/)
 
 ---
 <!-- Top Projects Table -->
@@ -15,11 +15,11 @@ Computer Science graduate bringing a background in high-stakes operations into s
 
 | Project | Highlights & Architecture | Stack | Links |
 | :--- | :--- | :--- | :--- |
-| **Capitol Régime** | • Ingests public U.S. Congressional stock disclosures to forecast 10-day forward market volatility regimes based on predicted VIX scores.<br>• Built end-to-end data ingestion, feature engineering, and ML classification pipelines to turn disclosure filings into risk signals. | `Python` `pandas` `scikit-learn` | [Repo](https://github.com/your-username/repo-1) |
+| **Capitol Régime** | • Ingests public U.S. Congressional stock disclosures to predict a 10th-trading-day market volatility regime (Normal or Elevated).<br>• Built end-to-end data ingestion, feature engineering, and ML classification pipelines to turn disclosure filings into risk signals. | `Python` `pandas` `scikit-learn` | [Repo](https://github.com/your-username/repo-1) |
 | **Logistics Route Optimizer** | • Built a multi-truck delivery routing engine using the **Clarke-Wright Savings Algorithm** $O(n^2 \log n)$ to minimize total travel distance under real-world constraints.<br>• Engineered a custom $O(1)$ Direct Map hash table and benchmarked runtime/accuracy tradeoffs against Nearest Neighbor and Cheapest Insertion heuristics. | `Python` `Algorithms` `Custom Data Structures` | [Repo](https://github.com/your-username/repo-2) |
 | **PlanIT — Client & Scheduling System** | • Developed a full-CRUD scheduling application with automated English/French system localization, Eastern Time business-hours validation, and conflict prevention.<br>• Enforced relational referential integrity and built an automated reporting module for monthly appointment analytics. | `Java 11` `JavaFX` `SQL` | [Repo](https://github.com/your-username/repo-3) |
 
-📂 **Want to see more?** View my full project archive—including a CRM System Architecture Proposal—on [LinkedIn](https://www.linkedin.com/in/kyle-l-325775392/details/projects/)).
+📂 **Want to see more?** View my full project archive including a CRM System Architecture Proposal on: [LinkedIn](https://www.linkedin.com/in/kyle-l-325775392/details/projects/)).
 
 ---
 <!-- Tech Stack Listing -->
@@ -45,7 +45,7 @@ Computer Science graduate bringing a background in high-stakes operations into s
 #### Certifications
 <p>
   <a href="https://www.credly.com/users/kyle-lund.0d7117c2">
-    <img src="https://img.shields.io/badge/Google-UX_Design_Professional-2f81f7?style=for-the-badge&logo=google&logoColor=#287A50" alt="Google UX Design Professional" />
+    <img src="https://forthebadge.com/api/badges/generate?panels=2&primaryLabel=Google&secondaryLabel=UX+Design+Professional&primaryBGColor=%23646464&primaryTextColor=%23ffffff&secondaryBGColor=%23008040&secondaryTextColor=%23FFFFFF&primaryFontSize=11&primaryFontWeight=600&primaryLetterSpacing=2&primaryFontFamily=Roboto&primaryTextTransform=uppercase&secondaryFontSize=12&secondaryFontWeight=900&secondaryLetterSpacing=2&secondaryFontFamily=Montserrat&secondaryTextTransform=uppercase&primaryIcon=google&primaryIconColor=%23ffffff&primaryIconSize=16&primaryIconPosition=left&scale=0.8" alt="Google UX Design Professional" />
   </a>
     <a href="https://www.peoplecert.org">
     <img src="https://forthebadge.com/api/badges/generate?panels=2&primaryLabel=LPI&secondaryLabel=Linux+Essentials&primaryBGColor=%23646464&primaryTextColor=%23ffffff&secondaryBGColor=%23e6bb39&secondaryTextColor=%23FFFFFF&primaryFontSize=11&primaryFontWeight=600&primaryLetterSpacing=2&primaryFontFamily=Roboto&primaryTextTransform=uppercase&secondaryFontSize=12&secondaryFontWeight=900&secondaryLetterSpacing=2&secondaryFontFamily=Montserrat&secondaryTextTransform=uppercase&primaryIcon=linuxprofessionalinstitute&primaryIconColor=%23e6bb39&primaryIconSize=16&primaryIconPosition=left&scale=0.8" alt="Linux Essentials | Linux Professional Institute" />
