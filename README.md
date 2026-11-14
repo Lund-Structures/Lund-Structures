@@ -2,7 +2,7 @@
 <img src="./Jet.svg" width="100%" alt="Pixel Jet" />
 
 <!-- Name and intro -->
-# Kyle Lund // Full-Stack Software Engineer
+# Kyle Lund  //Full-Stack Software Engineer
 **B.S. Computer Science • Air Force Veteran**
 
 Computer Science graduate bringing a background in high-stakes operations into software engineering. Pairing military-tested discipline and systems thinking with modern development practices to build **scalable, user-focused software**.
