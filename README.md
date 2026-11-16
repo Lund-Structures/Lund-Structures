@@ -15,11 +15,11 @@ Computer Science graduate bringing a background in high-stakes operations into s
 
 | Project | Highlights & Architecture | Stack | Links |
 | :--- | :--- | :--- | :--- |
-| **Capitol Régime** | • Ingests public U.S. Congressional stock disclosures to predict a 10th-trading-day market volatility regime (Normal or Elevated).<br>• Built end-to-end data ingestion, feature engineering, and ML classification pipelines to turn disclosure filings into risk signals. | `Python` `pandas` `scikit-learn` | [Repo](https://github.com/your-username/repo-1) |
-| **Logistics Route Optimizer** | • Built a multi-truck delivery routing engine using the **Clarke-Wright Savings Algorithm** $O(n^2 \log n)$ to minimize total travel distance under real-world constraints.<br>• Engineered a custom $O(1)$ Direct Map hash table and benchmarked runtime/accuracy tradeoffs against Nearest Neighbor and Cheapest Insertion heuristics. | `Python` `Algorithms` `Custom Data Structures` | [Repo](https://github.com/your-username/repo-2) |
-| **PlanIT — Client & Scheduling System** | • Developed a full-CRUD scheduling application with automated English/French system localization, Eastern Time business-hours validation, and conflict prevention.<br>• Enforced relational referential integrity and built an automated reporting module for monthly appointment analytics. | `Java 11` `JavaFX` `SQL` | [Repo](https://github.com/your-username/repo-3) |
+| **Capitol Régime** | • Ingests public U.S. Congressional stock disclosures to predict a 10th-trading-day market volatility regime (Normal or Elevated).<br>• Built end-to-end data ingestion, feature engineering, and ML classification pipelines to turn disclosure filings into risk signals. | `Python` `pandas` `scikit-learn` | [Repo](https://github.com/Lund-Structures/CapitolRegime) |
+| **Logistics Route Optimizer** | • Built a multi-truck delivery routing engine using the **Clarke-Wright Savings Algorithm** $O(n^2 \log n)$ to minimize total travel distance under real-world constraints.<br>• Engineered a custom $O(1)$ Direct Map hash table and benchmarked runtime/accuracy tradeoffs against Nearest Neighbor and Cheapest Insertion heuristics. | `Python` `Algorithms` `Custom Data Structures` | [Repo](https://github.com/Lund-Structures/package-routing-system) |
+| **PlanIT — Client & Scheduling System** | • Developed a full-CRUD scheduling application with automated English/French system localization, Eastern Time business-hours validation, and conflict prevention.<br>• Enforced relational referential integrity and built an automated reporting module for monthly appointment analytics. | `Java 11` `JavaFX` `SQL` | [Repo](https://github.com/Lund-Structures/PlanIt) |
 
-📂 **Want to see more?** View my full project archive including a CRM System Architecture Proposal on: [LinkedIn](https://www.linkedin.com/in/kyle-l-325775392/details/projects/)).
+📂 **Want to see more?** View my full project archive including a CRM System Architecture Proposal on: [LinkedIn](https://www.linkedin.com/in/kyle-l-325775392/details/projects/).
 
 ---
 <!-- Tech Stack Listing -->
